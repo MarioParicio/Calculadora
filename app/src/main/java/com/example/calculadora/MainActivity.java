@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             double numero2 = Double.parseDouble(segundoNumero.getText().toString());
             switch (operacion){
                 case "+":
+
                     return Double.toString(numero1 + numero2);
                 case "-":
                     return Double.toString(numero1 - numero2);
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         EditText primerNumero = binding.EtNumero1;
-        EditText segundoNumero = binding.EtNumero1;
+        EditText segundoNumero = binding.EtNumero2;
         TextView resultado = binding.tvResultado;
 
 
