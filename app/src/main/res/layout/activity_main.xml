@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+
+        <TextView
+            android:id="@+id/TVbienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenidos_a_mi_app_calculadora"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:paddingStart="25dp"
+            android:layout_marginEnd="75dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:id="@+id/imgCalculadora"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/calculadora"
+
+
+            />
+
+        <TextView
+            android:id="@+id/TvPrimerNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduzca_el_primer_n_mero"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            />
+
+        <EditText
+            android:id="@+id/EtNumero1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numero_1"
+            android:inputType="numberDecimal"
+            android:paddingStart="15dp"
+
+
+        />        <TextView
+            android:id="@+id/TvPSegundoNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduzca_el_segundo_n_mero"
+            android:paddingTop="15dp"
+            android:layout_marginStart="0dp"
+        android:paddingStart="15dp"/>
+
+        <EditText
+            android:id="@+id/EtNumero2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numero_2"
+            android:inputType="numberDecimal"
+            android:paddingStart="15dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btnSumar"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:width="5dp"
+                android:height="5dp"
+                android:text="@string/sumar"
+                android:layout_margin="5dp"
+                android:textSize="12dp"/>
+            <Button
+                android:id="@+id/btnRestar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="2dp"
+                android:text="@string/restar"
+                android:layout_margin="5dp"
+                android:textSize="12dp"/>
+                <Button
+                    android:id="@+id/btnMultiplicar"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:width="30dp"
+                    android:text="@string/mult"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:id="@+id/btnDividir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="54dp"
+                    android:text="@string/dividir" android:layout_margin="5dp"
+                    android:textSize="12dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvResutadoTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/el_resultado_de_la_operacion_es"
+            android:paddingStart="15dp"/>
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_marginStart="15dp"/>
+
+
+    </LinearLayout>
+
+</layout>

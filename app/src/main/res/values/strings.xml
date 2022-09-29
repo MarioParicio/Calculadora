@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="bienvenidos_a_mi_app_calculadora">Bienvenidos a mi app Calculadora</string>
+    <string name="sumar">Sumar</string>
+    <string name="restar">Restar</string>
+    <string name="mult">Mult</string>
+    <string name="dividir">Dividir</string>
+    <string name="introduzca_el_primer_n_mero">Introduzca el primer número</string>
+    <string name="el_resultado_de_la_operacion_es">El resultado de la operacion es:</string>
+    <string name="numero_1">Numero 1</string>
+    <string name="numero_2">Numero 2</string>
+    <string name="introduzca_el_segundo_n_mero">Introduzca el segundo número</string>
+    <string name="Fallo_introducir_valores">Introducer los valores</string>
+
+</resources>
